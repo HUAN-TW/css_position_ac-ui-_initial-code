@@ -1,0 +1,105 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  width: 300px;
+  height: 500px;
+  background: linear-gradient(
+    161.98deg,
+    #07e3a1 13.65%,
+    rgba(11, 111, 218, 0) 87.85%
+  );
+  margin: 100px auto;
+  position: relative;
+  border-radius: 20px;
+}
+
+/* Bonus for you: center a background image! */
+.bernard-img {
+  border: solid 0px red;
+  border-radius: 50%;
+  z-index: 3;
+  width: 128px;
+  height: 156px;
+  background-image: url(https://assets-lighthouse.alphacamp.co/uploads/image/file/14990/Bernard_keyer.png);
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 95px;
+  right: 90px;
+}
+
+/* begin your styles here!*/
+
+.circle-container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.circle-white {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+.circle-red {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.content-container {
+  border-radius: 20px;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+h1 {
+  border: solid 0px red;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 68px;
+  font-size: 26px;
+  font-family: "Montserrat", "Noto Serif TC", "Roboto", sans-serif;
+}
+
+.alpha {
+  position: relative;
+  font-family: "Noto Serif TC";
+  width: 125px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 0 auto 25px;
+  font-size: 12px;
+  border-radius: 30px;
+  padding: 3px;
+  font-weight: 400;
+  top: -10px;
+}
+
+p {
+  margin: -15px 30px 30px 30px;
+  font-size: 15px;
+  line-height: 16px;
+}
